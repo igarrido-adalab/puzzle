@@ -13,8 +13,8 @@ function App() {
       <main>
         <Routes>
           <Route path="/" Component={Home} />
-          <Route path="puzzle" element={<Tablero/>} />
-          <Route path="contact-us" Component={Contact} />
+          <Route path="/puzzle" element={<Tablero/>} />
+          <Route path="/contact-us" Component={Contact} />
           <Route path="*" Component={Error404} />
         </Routes>
       </main>

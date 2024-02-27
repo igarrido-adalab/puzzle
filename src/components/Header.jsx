@@ -11,10 +11,10 @@ return (
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="puzzle">Puzzle</NavLink>
+          <NavLink to="/puzzle">Puzzle</NavLink>
         </li>
         <li>
-          <NavLink to="contact-us">Contacto</NavLink>
+          <NavLink to="/contact-us">Contacto</NavLink>
         </li>
       </ul>
     </nav>
